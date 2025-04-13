@@ -1,18 +1,18 @@
 {
-  "name": "server",
+  "name": "zaina-cake-shop-backend",
   "version": "1.0.0",
+  "description": "Backend for Zaina Cake Shop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mongoose": "^8.13.2"
-  }
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "",
+  "license": "ISC"
 }
